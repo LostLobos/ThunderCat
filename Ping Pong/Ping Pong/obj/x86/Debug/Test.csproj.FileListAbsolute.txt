@@ -1,5 +1,3 @@
-c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Test.exe
-c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Test.pdb
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\MonoGame.Framework.dll
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\SharpDX.MediaFoundation.dll
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\SharpDX.dll
@@ -21,7 +19,9 @@ c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\SharpDX.RawInput.xml
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\SharpDX.Direct3D9.xml
 c:\users\igor\documents\visual studio 2010\Projects\Test\Test\obj\x86\Debug\Test.csprojResolveAssemblyReference.cache
-c:\users\igor\documents\visual studio 2010\Projects\Test\Test\obj\x86\Debug\Test.exe
-c:\users\igor\documents\visual studio 2010\Projects\Test\Test\obj\x86\Debug\Test.pdb
 C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Content\Ball.png
 C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Content\Paddle.png
+C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Ping Pong.exe
+C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\bin\Windows\Debug\Ping Pong.pdb
+C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\obj\x86\Debug\Ping Pong.exe
+C:\Users\Igor\documents\visual studio 2010\Projects\Test\Test\obj\x86\Debug\Ping Pong.pdb

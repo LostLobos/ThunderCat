@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 #endregion
 
-namespace Test
+namespace PingPong
 {
 #if WINDOWS || LINUX
     /// <summary>
