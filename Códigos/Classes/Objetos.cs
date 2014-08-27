@@ -20,5 +20,11 @@ namespace PingPong
         {
             Posicao += movimento;
         }
+
+        public Rectangle Bounds
+        {
+            get { return new Rectangle((int)Posicao.X, (int)Posicao.Y, Textura.Width, Textura.Height); }
+        }
+
     }
 }

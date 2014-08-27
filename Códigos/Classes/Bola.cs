@@ -11,7 +11,7 @@ namespace PingPong
     {
         public Vector2 Velocity;
         public Random random;
- 
+
         public Bola()
         {
             random = new Random();
@@ -37,23 +37,10 @@ namespace PingPong
 
         public void CheckWallCollision()
         {
-    
             if (Posicao.Y < 0)
             {
             Posicao.Y = 0;
             Velocity.Y *= -1;
-            }
-            if (Posicao.X < 0)
-            {
-                Posicao.X = (Game1.Largura / 2 - Textura.Width / 2);
-                Posicao.Y = (Game1.Altura / 2 - Textura.Height / 2);
-                Velocity.Y *=-1;
-            }
-            else if (Posicao.X > Game1.Largura)
-            {
-                Posicao.X = (Game1.Largura / 2 - Textura.Width / 2);
-                Posicao.Y = (Game1.Altura / 2 - Textura.Height / 2);
-                Velocity.Y *= -1;
             }
 
             if (Posicao.Y + Textura.Height > Game1.Altura)
@@ -61,7 +48,6 @@ namespace PingPong
                 Posicao.Y = Game1.Altura - Textura.Height;
                 Velocity.Y *= -1;
             }
-        
         }
 
         public override void Move(Vector2 movimento)
@@ -69,6 +55,5 @@ namespace PingPong
             base.Move(movimento);
             CheckWallCollision();
         }
-
     }
 }

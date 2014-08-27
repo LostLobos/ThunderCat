@@ -17,14 +17,14 @@ namespace PingPong
     public class Game1 : Game
     {
         const int VELOCIDADE_BARRA = 70;  
-        const float VELOCIDADE_BOLA = 3f;
+        const float VELOCIDADE_BOLA = 8f;
         const float TECLADO_VELOCIDADE_BARRA = 10f;
         GraphicsDeviceManager graphics; // Quando inicia um Projeto MonoGame, essa variável já vem, tem a ver com montar a tela no monitor.
         SpriteBatch spriteBatch; // Essa variável vai ser a Textura do que vamos desenhar na Tela.
         public static int Altura, Largura; // Altura e Largura da tela.
         Jogador jogador1,jogador2; // Variaveis do tipo Objeto, elas herdam tudo da Classe Jogador.
         Bola bola; // " " "
-
+        Texture2D MeioTextura;
 
         public Game1()
             : base()
@@ -62,14 +62,17 @@ namespace PingPong
             // Create a new SpriteBatch, which can be used to draw Texturas.
             spriteBatch = new SpriteBatch(GraphicsDevice); // Isso já vem...
 
-            jogador1.Textura = Content.Load<Texture2D>("Paddle");
-            jogador2.Textura = Content.Load<Texture2D>("Paddle");
-            jogador1.Posicao = new Vector2(VELOCIDADE_BARRA, Altura / 2 - jogador1.Textura.Height / 2);
+            jogador1.Textura = Content.Load<Texture2D>("Paddle"); // Aqui é carregado a imagem Paddle.png ali do lado em Content, ela é a barra do jogador.
+            jogador2.Textura = Content.Load<Texture2D>("Paddle"); // Idem
+            jogador1.Posicao = new Vector2(VELOCIDADE_BARRA, Altura / 2 - jogador1.Textura.Height / 2); // Calcula o Centro da Tela e inicia a posição deles ali.
             jogador2.Posicao = new Vector2(Largura - jogador2.Textura.Width - VELOCIDADE_BARRA, Altura / 2 - jogador2.Textura.Height / 2);
  
-            bola.Textura = Content.Load<Texture2D>("Ball");
+            bola.Textura = Content.Load<Texture2D>("Ball"); // Idem
             
-            bola.Launch(VELOCIDADE_BOLA);
+            bola.Launch(VELOCIDADE_BOLA); // Essa função está em Bola.cs
+
+            MeioTextura = Content.Load<Texture2D>("Middle");
+            //Texto = Content.Load<SpriteFont>("Font");
         }
 
         /// <summary>
@@ -88,21 +91,48 @@ namespace PingPong
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            Random random = new Random();
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
+                bola.Velocity *= -1;
 
             // TODO: Add your update logic here
 
             Largura = GraphicsDevice.Viewport.Width;
             Altura = GraphicsDevice.Viewport.Height;
 
-            bola.Move(bola.Velocity);
-
             Vector2 player1Velocity = Input.TecladoTecla(PlayerIndex.One) * TECLADO_VELOCIDADE_BARRA;
             Vector2 player2Velocity = Input.TecladoTecla(PlayerIndex.Two) * TECLADO_VELOCIDADE_BARRA;
 
+            bola.Move(bola.Velocity);
+
             jogador1.Move(player1Velocity);
             jogador2.Move(player2Velocity);
+
+            if (bola.Posicao.X < 0)
+                bola.Launch(VELOCIDADE_BOLA);
+            else if (bola.Posicao.X > Largura)
+                bola.Launch(VELOCIDADE_BOLA);
+
+            if (jogador1.Bounds.Intersects(bola.Bounds))
+            {
+                if (random.Next(4) == 2)
+                    bola.Velocity.X = Math.Abs(bola.Velocity.X) * 2;
+                else if (random.Next(4) == 1)
+                    bola.Velocity.X = Math.Abs(bola.Velocity.X) - 2;
+                else
+                    bola.Velocity.X = Math.Abs(bola.Velocity.X);
+            }
+
+            if (jogador2.Bounds.Intersects(bola.Bounds))
+            {
+                if (random.Next(4) == 2)
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) * 2;
+                else if (random.Next(4) == 1)
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) + 2;
+                else
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X);
+            }
 
             base.Update(gameTime);
         }
@@ -121,6 +151,7 @@ namespace PingPong
             jogador1.Draw(spriteBatch);
             jogador2.Draw(spriteBatch);
             bola.Draw(spriteBatch);
+            spriteBatch.Draw(MeioTextura, new Rectangle(Largura / 2 - MeioTextura.Width / 2, 0, MeioTextura.Width, Altura), null, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
