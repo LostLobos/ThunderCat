@@ -13,7 +13,9 @@ Vamos pesquisar uma Engine boa para desenvolver alguma coisa, de inicio achei o 
   
   Tutoriais para MonoGame:
   
-  http://rbwhitaker.wikidot.com/monogame-tutorials
+  http://rbwhitaker.wikidot.com/monogame-tutorials  ---------> Esse aqui é tipo em tópicos bem explicado.
+  
+  https://github.com/mono/MonoGame/wiki/Tutorials   --------->Meio bagunçado tem links pra todo lado, mas tem bons exemplos
 
 ==========================================================================================
 
