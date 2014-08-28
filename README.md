@@ -10,6 +10,10 @@ Vamos pesquisar uma Engine boa para desenvolver alguma coisa, de inicio achei o 
   De qualquer forma o site dele é esse: 
   
   http://www.monogame.net/
+  
+  Tutoriais para MonoGame:
+  
+  http://rbwhitaker.wikidot.com/monogame-tutorials
 
 ==========================================================================================
 
