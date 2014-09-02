@@ -16,13 +16,12 @@ namespace PingPong
             if ((Posicao.Y + Textura.Height) > Game1.Altura && movimento.Y > 0)
             {
             }
-            else if ((Posicao.Y/2 + Textura.Height /2 ) < 0 && movimento.Y < 0)
+            else if ((Posicao.Y - Textura.Height / 20 ) < 0 && movimento.Y < 0)
             {
             }
             else
                 Posicao += movimento;
 
-           // System.Diagnostics.Debug.WriteLine(Posicao.Y + Textura.Height);
         }
   
     }

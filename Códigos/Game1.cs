@@ -1,5 +1,4 @@
-﻿#region Using Statements
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -7,7 +6,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.GamerServices;
-#endregion
 
 namespace PingPong
 {
@@ -17,14 +15,18 @@ namespace PingPong
     public class Game1 : Game
     {
         const int VELOCIDADE_BARRA = 70;  
-        const float VELOCIDADE_BOLA = 8f;
+        float VELOCIDADE_BOLA = 8f;
         const float TECLADO_VELOCIDADE_BARRA = 10f;
+        const int PLACAR_MAXIMO = 10;
+
         GraphicsDeviceManager graphics; // Quando inicia um Projeto MonoGame, essa variável já vem, tem a ver com montar a tela no monitor.
         SpriteBatch spriteBatch; // Essa variável vai ser a Textura do que vamos desenhar na Tela.
         public static int Altura, Largura; // Altura e Largura da tela.
         Jogador jogador1,jogador2; // Variaveis do tipo Objeto, elas herdam tudo da Classe Jogador.
         Bola bola; // " " "
         Texture2D MeioTextura;
+        SpriteFont Texto;
+        Vector2 ganhador;
 
         public Game1()
             : base()
@@ -72,7 +74,8 @@ namespace PingPong
             bola.Launch(VELOCIDADE_BOLA); // Essa função está em Bola.cs
 
             MeioTextura = Content.Load<Texture2D>("Middle");
-            //Texto = Content.Load<SpriteFont>("Font");
+
+            Texto = Content.Load<SpriteFont>("Fonte");
         }
 
         /// <summary>
@@ -94,7 +97,12 @@ namespace PingPong
             Random random = new Random();
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                bola.Velocity *= -1;
+            {
+                jogador1.pontuacao = 0;
+                jogador2.pontuacao = 0;
+                VELOCIDADE_BOLA = 8f;
+                bola.Launch(VELOCIDADE_BOLA);
+            }
 
             // TODO: Add your update logic here
 
@@ -109,27 +117,33 @@ namespace PingPong
             jogador1.Move(player1Velocity);
             jogador2.Move(player2Velocity);
 
-            if (bola.Posicao.X < 0)
+            if (bola.Posicao.X < 0 && VELOCIDADE_BOLA != 0)
+            {
                 bola.Launch(VELOCIDADE_BOLA);
-            else if (bola.Posicao.X > Largura)
+                jogador2.pontuacao++;
+            }
+            else if (bola.Posicao.X > Largura && VELOCIDADE_BOLA != 0)
+            {
                 bola.Launch(VELOCIDADE_BOLA);
-
+                jogador1.pontuacao++;
+            }
+ 
             if (jogador1.Bounds.Intersects(bola.Bounds))
             {
-                if (random.Next(4) == 2)
-                    bola.Velocity.X = Math.Abs(bola.Velocity.X) * 2;
-                else if (random.Next(4) == 1)
-                    bola.Velocity.X = Math.Abs(bola.Velocity.X) - 2;
+                if (random.Next(7) == 5 || random.Next(5) == 3)
+                    bola.Velocity.X = Math.Abs(bola.Velocity.X) + 10;
+                else if (random.Next(5) == 2 && bola.Velocity.X > 7f)
+                    bola.Velocity.X = Math.Abs(bola.Velocity.X) - 1;
                 else
                     bola.Velocity.X = Math.Abs(bola.Velocity.X);
             }
-
+      
             if (jogador2.Bounds.Intersects(bola.Bounds))
             {
-                if (random.Next(4) == 2)
-                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) * 2;
-                else if (random.Next(4) == 1)
-                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) + 2;
+                if (random.Next(7) == 5 || random.Next(5) == 3)
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) + 10;
+                else if (random.Next(7) == 2 && bola.Velocity.X < -7f)
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) -1;
                 else
                     bola.Velocity.X = -Math.Abs(bola.Velocity.X);
             }
@@ -148,11 +162,28 @@ namespace PingPong
             // TODO: Add your drawing code here
 
             spriteBatch.Begin();
+            spriteBatch.DrawString(Texto, Convert.ToString(jogador2.pontuacao), new Vector2(Largura / 2 + Altura / 4, Altura / 2 - Altura / 2), Color.Blue);
+            spriteBatch.DrawString(Texto, Convert.ToString(jogador1.pontuacao), new Vector2(Largura / 2 - Altura / 3, Altura / 2 - Altura / 2), Color.Blue); 
             jogador1.Draw(spriteBatch);
             jogador2.Draw(spriteBatch);
             bola.Draw(spriteBatch);
             spriteBatch.Draw(MeioTextura, new Rectangle(Largura / 2 - MeioTextura.Width / 2, 0, MeioTextura.Width, Altura), null, Color.White);
             spriteBatch.End();
+
+            if (jogador1.pontuacao >= PLACAR_MAXIMO || jogador2.pontuacao >= PLACAR_MAXIMO)
+            {
+                if (jogador1.pontuacao >= PLACAR_MAXIMO)
+                    ganhador = new Vector2(Largura / 4 - Altura / 3, Altura / 3);
+                else
+                    ganhador = new Vector2(Largura / 3 + Altura / 3, Altura / 3);
+
+                spriteBatch.Begin();
+                spriteBatch.DrawString(Texto, "Fucking Vencedor!", ganhador, Color.CornflowerBlue, 0, new Vector2(0,0), 0.5f, SpriteEffects.None, 1.0f);
+                spriteBatch.DrawString(Texto, "Aperte ESC para reiniciar a Partida!", new Vector2(Largura / 12, Altura / 2 + Largura / 8), Color.FloralWhite, 0, new Vector2(0, 0), 0.5f, SpriteEffects.None, 1.0f);
+                spriteBatch.End();
+
+                VELOCIDADE_BOLA = 0f;
+            }
 
             base.Draw(gameTime);
         }
