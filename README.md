@@ -2,6 +2,7 @@ ThunderCat
 ==========
 
 O projeto é a pasta do Ping Pong inteira, para abrir com o Visual Studio, abre o arquivo Ping Pong Solucao !
+
 ==========================================================================================
 A Engine que vamos usar ainda está em Aberto, mas achei o MonoGame muito prático e fácil de mexer, fiz o jogo do Ping Pong em 1 semana sem saber muita coisa. Também que essa Engine porta para Linux, Mac, Android, Windows Phone e iOS.
 
