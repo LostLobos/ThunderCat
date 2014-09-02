@@ -11,11 +11,20 @@ Vamos pesquisar uma Engine boa para desenvolver alguma coisa, de inicio achei o 
   
   http://www.monogame.net/
   
-  Tutoriais para MonoGame:
+  <b>Tutoriais para MonoGame:</b>
   
   http://rbwhitaker.wikidot.com/monogame-tutorials  ---------> Esse aqui é tipo em tópicos bem explicado.
   
   https://github.com/mono/MonoGame/wiki/Tutorials   --------->Meio bagunçado tem links pra todo lado, mas tem bons exemplos
+  
+==========================================================================================
+
+  <b>Tutoriais para Microsoft XNA:</b>
+  
+  http://msdn.microsoft.com/en-us/library/bb200104.aspx
+  
+  
+  <b>Obs:</b> O Microsoft XNA que era a Engine que a Microsoft desenvolveu foi descontinuada e o MonoGame assumiu com atualizações e otimizações melhores, a documentação para usar o MonoGame é a mesma para usar o XNA.
 
 ==========================================================================================
 
