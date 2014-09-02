@@ -132,7 +132,7 @@ namespace PingPong
             {
                 if (random.Next(7) == 5 || random.Next(5) == 3)
                     bola.Velocity.X = Math.Abs(bola.Velocity.X) + 10;
-                else if (random.Next(5) == 2 && bola.Velocity.X > 7f)
+                else if (random.Next(5) == 2 && bola.Velocity.X > 8f)
                     bola.Velocity.X = Math.Abs(bola.Velocity.X) - 1;
                 else
                     bola.Velocity.X = Math.Abs(bola.Velocity.X);
@@ -142,7 +142,7 @@ namespace PingPong
             {
                 if (random.Next(7) == 5 || random.Next(5) == 3)
                     bola.Velocity.X = -Math.Abs(bola.Velocity.X) + 10;
-                else if (random.Next(7) == 2 && bola.Velocity.X < -7f)
+                else if (random.Next(7) == 2 && bola.Velocity.X < -8f)
                     bola.Velocity.X = -Math.Abs(bola.Velocity.X) -1;
                 else
                     bola.Velocity.X = -Math.Abs(bola.Velocity.X);
