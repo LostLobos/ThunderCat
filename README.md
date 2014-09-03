@@ -21,7 +21,9 @@ A Engine que vamos usar ainda está em Aberto, mas achei o MonoGame muito práti
   
   http://rbwhitaker.wikidot.com/monogame-tutorials  ---------> Esse aqui é tipo em tópicos bem explicado.
   
-  https://github.com/mono/MonoGame/wiki/Tutorials   --------->Meio bagunçado tem links pra todo lado, mas tem bons exemplos
+  https://github.com/mono/MonoGame/wiki/Tutorials ---------> Meio bagunçado tem links pra todo lado, mas tem bons exemplos.
+  
+  https://www.youtube.com/user/oyyou91/videos       ---------> Canal com Vídeos Aulas para C# e XNA.
   
 ==========================================================================================
 
