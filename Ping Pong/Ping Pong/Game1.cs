@@ -140,24 +140,24 @@ namespace PingPong
 
             if (jogador1.Bounds.Intersects(bola.Bounds)) // Verifica se a Barra do Jogador Interceptou a bolinha. 
             {
-                Som.SomBarra.Play() ;
+                Som.SomBarra.Play();
                 if (random.Next(7) == 5 || random.Next(5) == 3) // Aqui ele faz tipo uma probabilidade da bola acelerar/desacelerar eventualmente, além de mudar a direção dela.
                     bola.Velocity.X = Math.Abs(bola.Velocity.X) + 10;
-                else if (random.Next(5) == 2 && bola.Velocity.X > 8f)
-                    bola.Velocity.X = Math.Abs(bola.Velocity.X) - 1;
+                //else if (random.Next(5) == 2 && bola.Velocity.X > 8f)
+                    //bola.Velocity.X = Math.Abs(bola.Velocity.X) - 1;
                 else
                     bola.Velocity.X = Math.Abs(bola.Velocity.X);
             }
-      
+
             if (jogador2.Bounds.Intersects(bola.Bounds)) // " " "
             {
                 Som.SomBarra.Play();
                 if (random.Next(7) == 5 || random.Next(5) == 3) // " " "
                     bola.Velocity.X = -Math.Abs(bola.Velocity.X) + 10;
-                else if (random.Next(7) == 2 && bola.Velocity.X < -8f)
-                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) -1;
+                //else if (random.Next(7) == 2 && bola.Velocity.X < -8f)
+                //bola.Velocity.X = -Math.Abs(bola.Velocity.X);
                 else
-                    bola.Velocity.X = -Math.Abs(bola.Velocity.X);
+                    bola.Velocity.X = -Math.Abs(bola.Velocity.X) - 1;
             }
 
             base.Update(gameTime);
