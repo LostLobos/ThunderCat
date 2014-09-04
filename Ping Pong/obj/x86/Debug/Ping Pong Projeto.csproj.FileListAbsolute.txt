@@ -1,0 +1,59 @@
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\obj\x86\Debug\Ping Pong.exe
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\obj\x86\Debug\Ping Pong.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\Content\Ball.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\Content\Paddle.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\Ping Pong.exe
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\Ping Pong.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\Lidgren.Network.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Test\Ping Pong\obj\x86\Debug\Ping Pong Projeto.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Ball.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Middle.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Paddle.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Fonte.xnb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Ping Pong.exe
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Ping Pong.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Lidgren.Network.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\obj\x86\Debug\Ping Pong.exe
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\obj\x86\Debug\Ping Pong.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Logo.jpg
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\Ping Pong Menu.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\SomBolaColisao.xnb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Debug\Content\BarraBolaColisaoSom.xnb
