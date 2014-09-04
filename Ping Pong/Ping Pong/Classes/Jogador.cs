@@ -11,8 +11,10 @@ namespace PingPong
     {
         public int pontuacao = 0;
 
-        public override void Move(Vector2 movimento)
-        {
+        public override void Move(Vector2 movimento) // "public override void Move", ele substitui a função "public virtual void Move" existente no "Objetos.cs"
+        { 
+            // Aqui verifica se a Barra ultrapassou os limites da tela.
+
             if ((Posicao.Y + Textura.Height) > Game1.Altura && movimento.Y > 0)
             {
             }

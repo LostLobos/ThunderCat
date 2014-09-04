@@ -26,3 +26,8 @@ C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Wind
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct3D9.xml
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong.exe
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong Projeto.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\Ping Pong Menu.png
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\Logo.jpg
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\SomBolaColisao.xnb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\BarraBolaColisaoSom.xnb

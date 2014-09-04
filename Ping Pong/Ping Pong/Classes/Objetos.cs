@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
 
 namespace PingPong
 {
@@ -14,7 +15,7 @@ namespace PingPong
 
         public void Draw(SpriteBatch spritebatch)
         {
-            spritebatch.Draw(Textura, Posicao, Color.White);
+            spritebatch.Draw(Textura,Posicao,Color.White);
         }
         public virtual void Move(Vector2 movimento)
         {
@@ -23,6 +24,7 @@ namespace PingPong
 
         public Rectangle Bounds
         {
+            // Retorna um Objeto Retângulo com os dados do Objeto(Bola ou barra) do tamanho deles, para fazer a Colisão.
             get { return new Rectangle((int)Posicao.X, (int)Posicao.Y, Textura.Width, Textura.Height); }
         }
 
