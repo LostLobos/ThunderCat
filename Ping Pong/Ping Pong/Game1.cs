@@ -19,7 +19,7 @@ namespace PingPong
         const float TECLADO_VELOCIDADE_BARRA = 10f; // Fator de Multiplicação para a velocidade da Barra.
         const int PLACAR_MAXIMO = 10;
         const float frameRate = 1f;
-
+        // TESTANDO O CÓDIGO DA ZUERA AQUI HUE
         GraphicsDeviceManager graphics; // Quando inicia um Projeto MonoGame, essa variável já vem, tem a ver com montar a tela no monitor.
         SpriteBatch spriteBatch; // Essa variável vai ser a Textura do que vamos desenhar na Tela.
         public static int Altura, Largura; // Altura e Largura da tela.

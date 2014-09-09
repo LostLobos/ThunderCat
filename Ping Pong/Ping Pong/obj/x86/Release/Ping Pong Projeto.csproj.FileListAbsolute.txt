@@ -31,3 +31,36 @@ C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Wind
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\Logo.jpg
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\SomBolaColisao.xnb
 C:\Users\Igor\Documents\Visual Studio 2010\Projects\Ping Pong\Ping Pong\bin\Windows\Release\Content\BarraBolaColisaoSom.xnb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong.exe
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong.pdb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Ball.png
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Logo.jpg
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Middle.png
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Paddle.png
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Ping Pong Menu.png
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\Fonte.xnb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\SomBolaColisao.xnb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Content\BarraBolaColisaoSom.xnb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Ping Pong.exe
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Ping Pong.pdb
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\MonoGame.Framework.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.MediaFoundation.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.XAudio2.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct3D11.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.DXGI.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct2D1.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\Lidgren.Network.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.XInput.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.RawInput.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct3D9.dll
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.MediaFoundation.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.XAudio2.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct3D11.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.DXGI.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct2D1.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.XInput.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.RawInput.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\bin\Windows\Release\SharpDX.Direct3D9.xml
+D:\Documentos\Github\ThunderCat\Ping Pong\Ping Pong\obj\x86\Release\Ping Pong Projeto.csprojResolveAssemblyReference.cache

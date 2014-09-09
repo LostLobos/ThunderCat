@@ -11,3 +11,5 @@ C:\Users\Katu\Desktop\Game Networking example\GameServer\obj\Debug\GameServer.ex
 C:\Users\Katu\Desktop\Game Networking example\GameServer\obj\Debug\GameServer.pdb
 C:\Users\Igor\Downloads\GameNetworkingExample\GameServer\obj\Debug\GameServer.exe
 C:\Users\Igor\Downloads\GameNetworkingExample\GameServer\obj\Debug\GameServer.pdb
+D:\Documentos\Github\ThunderCat\GameNetworkingExample\GameServer\obj\Debug\GameServer.exe
+D:\Documentos\Github\ThunderCat\GameNetworkingExample\GameServer\obj\Debug\GameServer.pdb
