@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping Pong Projeto", "Ping Pong\Ping Pong Projeto.csproj", "{657B4717-9E87-47D1-92F6-A1CFA55D48BC}"
 EndProject
 Global
