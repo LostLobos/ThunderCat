@@ -6,6 +6,10 @@ O projeto é a pasta do Ping Pong inteira, para abrir com o Visual Studio, abre 
   <b>Tutorial que Usei para fazer o Ping Pong: </b>
 
   http://ertayshashko.wordpress.com/2012/12/18/developing-2d-games-for-windows-8-using-monogame-part-onepreparation/
+  
+  <b>Pacotes de Instalações Necessários para o MonoGame:</b>
+  
+  http://xboxforums.create.msdn.com/forums/t/1988.aspx
 
 ==========================================================================================
 A Engine que vamos usar ainda está em Aberto, mas achei o MonoGame muito prático e fácil de mexer, fiz o jogo do Ping Pong em 1 semana sem saber muita coisa. Também que essa Engine porta para Linux, Mac, Android, Windows Phone e iOS.
